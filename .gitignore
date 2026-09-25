@@ -1,0 +1,23 @@
+# Secrets & Service Account Credentials
+credentials.json
+*.pem
+*.key
+.env*
+!.env.example
+qos-mereitoi/.env*
+!qos-mereitoi/.env.example
+
+# Dependencies & Build artifacts
+node_modules/
+qos-mereitoi/node_modules/
+.next/
+qos-mereitoi/.next/
+*.tsbuildinfo
+test-results/
+.vercel/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
