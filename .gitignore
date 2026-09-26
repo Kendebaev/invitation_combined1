@@ -4,14 +4,10 @@ credentials.json
 *.key
 .env*
 !.env.example
-qos-mereitoi/.env*
-!qos-mereitoi/.env.example
 
 # Dependencies & Build artifacts
 node_modules/
-qos-mereitoi/node_modules/
 .next/
-qos-mereitoi/.next/
 *.tsbuildinfo
 test-results/
 .vercel/
