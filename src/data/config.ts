@@ -115,5 +115,11 @@ export const config = {
     creator: null as { text: string; whatsappUrl: string } | null,
   },
   a11y: { skip: "Шақыруға өту", portraitFallback: "Қарсыбек пен Базиланың қос мерейтойы" },
-  seo: { title: "Қарсыбек 60 · Базила 50 | Қос мерейтой", description: "26 желтоқсан · Ai-sultan hall. Қуанышымызға ортақ болыңыздар!" },
+  seo: {
+    title: "Қарсыбек 60 · Базила 50 | Қос мерейтой",
+    description: "26 желтоқсан · 18:00 · Шу қаласы, Ai-sultan hall. Қуанышымызға ортақ болыңыздар!",
+    url: "https://karsybek-bazila.vercel.app",
+    image: "/images/invitation-preview-v1.jpg",
+    imageAlt: "Қарсыбек 60 · Базила 50 — қос мерейтойға шақыру. 26 желтоқсан, Ai-sultan hall.",
+  },
 };
