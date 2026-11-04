@@ -112,10 +112,7 @@ export const config = {
   footer: {
     title: "Қуанышымыз сіздермен көрікті!",
     signature: "Ізгі ниетпен, Қарсыбек пен Базила",
-    creator: {
-      text: "Сайтты жасаған",
-      whatsappUrl: "https://wa.me/77778906620",
-    },
+    creator: null as { text: string; whatsappUrl: string } | null,
   },
   a11y: { skip: "Шақыруға өту", portraitFallback: "Қарсыбек пен Базиланың қос мерейтойы" },
   seo: { title: "Қарсыбек 60 · Базила 50 | Қос мерейтой", description: "26 желтоқсан · Ai-sultan hall. Қуанышымызға ортақ болыңыздар!" },
