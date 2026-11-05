@@ -7,7 +7,11 @@ export function Invitation() {
     <Reveal><Ornament /><p className="eyebrow">{c.eyebrow}</p></Reveal>
     <Reveal className="invitation-letter">
       <h2>{c.title}</h2>
-      <div className="letter-opening">{c.opening.map(p => <p key={p}>{p}</p>)}</div>
+      <div className="letter-opening">
+        <Ornament className="opening-ornament" />
+        <div className="letter-opening-lines">{c.opening.map(p => <p key={p}>{p}</p>)}</div>
+        <Ornament className="opening-ornament" />
+      </div>
       {c.paragraphs.map(p => <p key={p}>{p}</p>)}
       <p className="letter-closing">{c.closing}</p>
       <div className="signature"><span>{c.regards}</span><strong>{c.signature}</strong></div>
