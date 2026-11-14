@@ -7,7 +7,7 @@ export const config = {
   monogram: "Қ · Б",
   event: {
     date: "2026-12-26", // ПРЕДВАРИТЕЛЬНО: подтвердите год перед публикацией.
-    startTime: "18:00" as string | null,
+    startTime: "17:00" as string | null,
     timeZone: "Asia/Qyzylorda",
     utcOffset: "+05:00",
     dateLabel: "26 желтоқсан",
@@ -117,9 +117,9 @@ export const config = {
   a11y: { skip: "Шақыруға өту", portraitFallback: "Қарсыбек пен Базиланың қос мерейтойы" },
   seo: {
     title: "Қарсыбек 60 · Базила 50 | Қос мерейтой",
-    description: "26 желтоқсан · 18:00 · Шу қаласы, Ai-sultan hall. Қуанышымызға ортақ болыңыздар!",
+    description: "26 желтоқсан · 17:00 · Шу қаласы, Ai-sultan hall. Қуанышымызға ортақ болыңыздар!",
     url: "https://karsybek-bazila.vercel.app",
-    image: "/images/invitation-preview-v1.jpg",
+    image: "/images/invitation-preview-v2.jpg",
     imageAlt: "Қарсыбек 60 · Базила 50 — қос мерейтойға шақыру. 26 желтоқсан, Ai-sultan hall.",
   },
 };

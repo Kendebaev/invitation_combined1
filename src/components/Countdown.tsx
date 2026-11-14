@@ -24,7 +24,7 @@ export function Countdown() {
   const { delta, values } = countdownParts(
     now,
     config.event.date,
-    config.event.startTime || "18:00",
+    config.event.startTime || "17:00",
     config.event.utcOffset
   );
 
